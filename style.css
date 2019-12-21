@@ -1,0 +1,82 @@
+main{
+	display: flex;
+}
+aside{
+	height: 480px;
+	flex:15%;
+	border: 1px solid #ddd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contenu{
+	border: 1px solid #ddd;
+	height: 480px;
+	flex:85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#rectangle{
+	width: 60px;
+	height: 40px;
+	background-color: #ba7c7c;
+	position: relative;
+    display: inline-block;
+}
+#cercle{
+	width: 50px;
+	height: 50px;
+	background-color: #ba7c7c;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#ligne{
+	width: 40px;
+	height: 3px;
+	background-color: #ba7c7c;
+	transform: rotate(20deg);
+}
+.forme{
+	border: 1px solid #ddd;
+	height: 300px;
+	width: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.couleur{
+	border: 1px solid #ddd;
+	height: 150px;
+	width: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+#rouge,#vert,#bleu{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+#rouge{
+	background-color: red;
+}
+#vert{
+	background-color: green;
+}
+#bleu{
+	background-color: blue;
+}
+#rectangle:hover,#cercle:hover,#ligne:hover,#rouge:hover,#vert:hover,#bleu:hover{
+	
+}
+#myCanvas{
+	border:1px solid #000000;
+}
+#btn3{
+	height: 40px;
+}

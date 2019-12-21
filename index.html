@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dessiner avec canvas</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+	<aside>
+		<hr>
+		<section class="forme">
+			<h1>Forme</h1>
+			<button id="btn1"><div id="rectangle"></div></button>
+			<button id="btn2"><div id="cercle"></div></button>
+			<button id="btn3"><div id="ligne"></div></button>
+		</section>
+		<hr>
+		<section class="couleur">
+			<h1>Couleur</h1>
+			<button id="btnRouge"><div id="rouge" data-couleur="red"></div></button>
+			<button id="btnVert"><div id="vert" data-couleur="green"></div></button>
+			<button id="btnBleu"><div id="bleu" data-couleur="blue"></div></button>
+		</section>
+		<hr>
+	</aside>
+	<section class="contenu">
+		<canvas id="myCanvas" width="800" height="400" onclick="dessiner(event)">
+		</canvas>
+	</section>
+</main>
+<p id="demo"></p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="Cercle.js"></script>
+<script type="text/javascript" src="Rectangle.js"></script>
+<script type="text/javascript" src="Ligne.js"></script>
+<script type="text/javascript" src="main.js"></script>
+	
+</html>
